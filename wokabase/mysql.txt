@@ -1,0 +1,11 @@
+﻿设置外网可当文
+
+mysql> USE mysql; -- 切换到 mysql DB
+
+Database changed
+
+mysql> SELECT User, Password, Host FROM user; 
+
+mysql> -- UPDATE user SET Host='@' WHERE User='root' AND Host='localhost' LIMIT 1;
+
+mysql> flush privileges;
