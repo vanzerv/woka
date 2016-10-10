@@ -72,7 +72,7 @@ class IndexController extends Controller
      */
     public function actionIndex()
     {                 
-        Yii::$app->session->setFlash('success', '网站首页正在开发中！');
+        Yii::$app->session->setFlash('error', '网站首页正在开发中！');
         return $this->render('index');
     }
     /**
@@ -80,7 +80,7 @@ class IndexController extends Controller
      * @return mixed
      */
     public function actionLogin()
-    {
+    {      
       //切换layout
         $this->layout='login';        
         //是否登录,登录则跳转至首页

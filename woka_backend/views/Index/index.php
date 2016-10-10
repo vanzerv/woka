@@ -31,7 +31,7 @@ $this->title = 'WOKA_微信';
                   </ul>
                   <ul class="nav" data-ride="collapse">
                     <li class="hidden-nav-xs padder m-t m-b-sm text-xs text-muted">
-                      韵达快递
+                      蜗咖网络
                     </li>
                     <li >
                         <a href="javascript:void();" class="auto" target="wokam_content">
